@@ -1,7 +1,7 @@
 from datetime import datetime
 
 def fromDate(date):
-    days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
+    days = ['Monday', 'tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
     date = datetime.strptime(date, '%d %m %Y').weekday()
     return days[date]
 
