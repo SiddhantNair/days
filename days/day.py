@@ -8,3 +8,7 @@ def fromDate(date):
 def bleh(list):
     meow = sum(list)
     return meow
+
+def nonveg_or_not(date):
+    day = fromDate(date)
+    return day == 'Tuesday'

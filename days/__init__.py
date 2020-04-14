@@ -1,1 +1,1 @@
-from .day import fromDate , bleh
+from .day import fromDate , bleh, nonveg_or_not
